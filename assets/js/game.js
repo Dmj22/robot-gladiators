@@ -4,6 +4,7 @@
 //    * Defeat each enemy-robot
 // "LOSE" - Player robot's health is zero or less
 
+
 // var playerName = 'Clank McKrank';
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
@@ -17,15 +18,16 @@ var enemyAttack = 12;
 // fight function
 var fight = function(enemyName) {
 
-  ... // fight function statements
-  
-// You can also log multiple values at once like this
-  for(var i = 0; i < enemyNames.length; i++) {
-    console.log(enemyNames[i]);
-    console.log(i);
-    console.log(enemyNames[i] + " is at " + i + " index");
-  }
-  
+  // fight function statements
+
+  // You can also log multiple values at once like this
+
+for(var i = 0; i < enemyNames.length; i++) {
+  console.log(enemyNames[i]);
+  console.log(i);
+  console.log(enemyNames[i] + " is at " + i + " index");
+}
+ 
   // Alert players that they are starting the round
   window.alert("Welcome to Robot Gladiators!");
 
